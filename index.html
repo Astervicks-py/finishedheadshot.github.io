@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORTANA</title>
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+          <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4fe059a60.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="cortana">      
+        <h2 id="name">Cortana</h2>
+        <div id="direction">
+            <div class="backCircle"></div>
+            <button type="button" onclick="moveUp()" class="up"><i class="fa-solid fa-chevron-right"></i></button>
+            <button type="button" onclick="moveDown()" class="down"><i class="fa-solid fa-chevron-left"></i></button>
+            <button type="button" onclick="moveLeft()" class="left"><i class="fa-sharp fa-solid fa-chevron-up"></i></button>
+            <button type="button" onclick="moveRight()"class="right"><i class="fa-solid fa-chevron-down"></i></button><!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>Page title</title>
+            </head>
+            <body>
+                
+            </body>
+            </html>
+        </div>
+        <!-- First page containing user info -->
+    <div id="userInfo">
+            <h1>HeadShot</h1>
+        <div class="img">
+            <img src="IMG-0_1.jpg">
+        </div>
+        <button id="submit" onclick="playGame()">Play</button>
+    </div>
+    
+    
+    
+        <div id="loss">
+				        <h2>Game Over</h2>
+				        
+				        <i><h3>Score:<span id="gameScore">0</span></h3></i>
+				        <button type="submit"onclick="playGame()" id="btn">Play Again</button>
+				 </div>
+				 
+				 
+				
+        <div class="gameScreen">
+           <div class="scoreBoard">
+               <h1><i>Score </i>:<span id="dispScore">0</span></h1>
+               <h1><i>Time </i>:<span id="dispTime">60</span></h1>
+               
+           </div> 
+        
+        </div>
+        <audio id="mySong" src="background.mp3" type="audio/mp3" loop></audio>
+        <button id="on" class="on"><i class="fa-solid fa-power-off"></i></button>
+        <div class="power">
+            <button id="pause">Pause</button>
+        </div>
+        
+        <div id="action">
+            <div class="actCircle"></div>
+            
+            <button type="button" class="triangle"><i class="fa-solid fa-play"></i></button>
+            <button type="button" class="circle"><i class="fa-regular fa-circle"></i></button>
+            <button type="button" id="x"onclick="kill()"class="x">❌</button>
+            <button type="button" class="square">🟥</button>
+        </div>
+            
+    </div>
+</body>
+<script src="script.js"></script>
+</html>    
