@@ -54,7 +54,7 @@ onbtn.addEventListener("click",()=>{
 
 function playGame(){
 
-    let timer =6;
+    let timer =30;
     score=0
     lose.style.display="none"
     gameScreen.style.display="block"
